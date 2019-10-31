@@ -20,3 +20,5 @@ eureka:
     instance-id: ${eureka.instance.ip-address}:${spring.application.name}:${server.port}
     lease-expiration-duration-in-seconds: 90
     lease-renewal-interval-in-seconds: 30
+
+hello:  world
